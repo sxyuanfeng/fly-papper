@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">纸飞机</string>
+    <string name="app_title">原创故事</string>
+    <string name="app_title_2">树洞</string>
+    <string name="app_title_3">用户</string>
+    <string name="app_title_4">创作故事</string>
+    <string name="app_title_5">登录</string>
+    <string name="app_title_6">注册</string>
+    <string name="app_title_7">修改密码</string>
+    <string name="app_title_8">发布秘密</string>
+    <string name="app_title_9">我的消息</string>
+    <string name="app_title_10">我的关注</string>
+    <string name="app_title_11">我的收藏</string>
+    <string name="app_title_12">我的文章</string>
+    <string name="app_title_13">阅读全文</string>
+    <string name="app_title_14">修改信息</string>
+</resources>

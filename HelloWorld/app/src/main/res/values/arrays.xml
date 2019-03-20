@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="myarray">
+        <item>你好，认识一下。</item>
+        <item>在吗？想问你件事。</item>
+        <item>哈哈，我也这么觉得。</item>
+        <item>那下次再说吧。</item>
+    </string-array>
+</resources>

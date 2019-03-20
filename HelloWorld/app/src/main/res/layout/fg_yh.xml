@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorNormal"
+    android:weightSum="1">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="@string/app_title_3"/>
+
+        <ImageView
+            android:id="@+id/imageView_dl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/login" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right">
+
+            <ImageView
+                android:id="@+id/imageView_xx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:src="@mipmap/message"
+                android:paddingRight="10dp" />
+
+            <ImageView
+                android:id="@+id/imageView_dc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/out"
+                android:paddingRight="10dp" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="105dp"
+            android:layout_height="102dp"
+            android:id="@+id/imageView_tx"
+            android:src="@mipmap/touxiang"
+            android:paddingTop="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:paddingTop="20dp"
+        android:weightSum="1"
+        android:paddingBottom="20dp"
+        android:layout_weight="0.20">
+
+        <TextView
+            android:id="@+id/textview_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="  用户ID"
+            android:height="30dp"
+            android:width="30dp"
+            android:gravity="center"
+            android:textColor="@color/colorBlack"
+            android:layout_gravity="center_vertical"
+            android:textSize="40dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:weightSum="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="关注"
+                android:id="@+id/TextView4"
+                android:textSize="30dp"
+                android:paddingTop="5dp"
+                android:textColor="@color/colorBlack"/>
+
+            <LinearLayout
+                android:layout_width="260dp"
+                android:layout_height="match_parent">
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView_guanzhu"
+                android:src="@mipmap/next" />"/>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/fgx_2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPressed"
+            android:layout_above="@+id/textView4"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="收藏"
+                android:id="@+id/textView4"
+                android:textSize="30dp"
+                android:paddingTop="5dp"
+                android:textColor="@color/colorBlack"/>
+
+            <LinearLayout
+                android:layout_width="260dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView_shoucang"
+                android:src="@mipmap/next" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/fgx_1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPressed"
+            android:layout_above="@+id/textView5"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="我的文章"
+                android:id="@+id/textView5"
+                android:textSize="30dp"
+                android:paddingTop="5dp"
+                android:textColor="@color/colorBlack"/>
+
+            <LinearLayout
+                android:layout_width="201dp"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView_wodewenzhan"
+                android:src="@mipmap/next" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

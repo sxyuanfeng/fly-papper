@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.helloworld">
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CzgsActivity"></activity>
+        <activity android:name=".dlActivity"></activity>
+        <activity android:name=".zcActivity"></activity>
+        <activity android:name=".xgmmActivity"></activity>
+        <activity android:name=".fbmmActivity"></activity>
+        <activity android:name=".xiaoxiActivity"></activity>
+        <activity android:name=".gzActivity"></activity>
+        <activity android:name=".scActivity"></activity>
+        <activity android:name=".wdwzActivity"></activity>
+        <activity android:name=".ydqwActivity"></activity>
+        <activity android:name=".xgxxActivity"></activity>
+    </application>
+
+</manifest>
